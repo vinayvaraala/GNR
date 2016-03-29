@@ -104,6 +104,7 @@ a:focus {
 
 .colored-text {
   color: #32c5d2;
+  /*color:#444;*/
 }
 
 /* Headings */
@@ -1309,6 +1310,7 @@ breadcrumb
 .service-box {
   border: 1px solid #32c5d2;
   margin-bottom: 30px;
+  position:relative;
 }
 .service-box .btn-theme-bg {
   position: relative;

@@ -18,6 +18,7 @@ public partial class Ortho_Rehab_Cat : System.Web.UI.Page
         if (!Page.IsPostBack)
         {
             LoadMenuModules();
+            btnquote.Attributes.Add("onclick", "PopulateValue('" + ViewState["DeviceName"] + "');return false;");
         }
     }
     protected void LoadMenuModules()
@@ -38,6 +39,7 @@ public partial class Ortho_Rehab_Cat : System.Web.UI.Page
             while (dr.Read())
             {
                 lblDeviceName.Text = dr[0].ToString();
+                ViewState["DeviceName"]=lblDeviceName.Text;
                 sData = dr[5].ToString();
             }
             if (!string.IsNullOrEmpty(sData))

@@ -41,6 +41,7 @@ public partial class ortho_rehab : System.Web.UI.Page
 
                 string img = (dr[2].ToString() == "NoImage" ? "no-image.png" : dr[2].ToString());
                 sb.Append("<div class=\"col-sm-4 margin30\" style='Height:450px'><div class=\"service-box\"><img  width='100%' style='height:200px;' src='img/images/thumbs/" + img + "' alt=\"\"></a>");
+                sb.Append("<div style=\"position:absolute;left:20%;right:20%;top:20%;font-family:initial;font-size:xx-large;font-style:oblique;opacity: 0.8;\">GNR</div>");
                 sb.Append("<div class=\"caption\"><h4 style='text-align:center;word-wrap: break-word; Height:25px;'>" + dr[0].ToString() + "</h4><div class='divide20'></div><p style='text-align:left;Margin-left:20px;Height:20px; Margin-top:5px;'>ItemCode: " + dr[1].ToString() + "</p><p style='text-align:left;Margin-left:20px;Height:20px; Margin-top:5px;'>Size: " + dr[3].ToString() + "</p><p><a href=\"Ortho-Rehab-Cat.aspx?id=" + dr[4].ToString() + "\" class=\"btn btn-theme-bg btn-lg\" role=\"button\"'>More Details</a></p>");
                 sb.Append("</div></div></div>");
 
