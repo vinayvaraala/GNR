@@ -1,0 +1,9 @@
+c:\users\vinay varala\documents\visual studio 2013\Projects\GNRvinsuk\GNRvinsuk\bin\GNRvinsuk.dll.config
+c:\users\vinay varala\documents\visual studio 2013\Projects\GNRvinsuk\GNRvinsuk\bin\GNRvinsuk.dll
+c:\users\vinay varala\documents\visual studio 2013\Projects\GNRvinsuk\GNRvinsuk\bin\GNRvinsuk.pdb
+c:\users\vinay varala\documents\visual studio 2013\Projects\GNRvinsuk\GNRvinsuk\obj\Debug\GNRvinsuk.csprojResolveAssemblyReference.cache
+c:\users\vinay varala\documents\visual studio 2013\Projects\GNRvinsuk\GNRvinsuk\obj\Debug\GNRvinsuk.dll
+c:\users\vinay varala\documents\visual studio 2013\Projects\GNRvinsuk\GNRvinsuk\obj\Debug\GNRvinsuk.pdb
+F:\praveen\Project\Vinay\Final20032016\Final05032016\obj\Debug\GNRvinsuk.csprojResolveAssemblyReference.cache
+F:\praveen\Project\Vinay\Final20032016\Final05032016\obj\Debug\GNRvinsuk.dll
+F:\praveen\Project\Vinay\Final20032016\Final05032016\obj\Debug\GNRvinsuk.pdb

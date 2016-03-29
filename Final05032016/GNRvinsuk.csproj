@@ -1,0 +1,751 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8576ED8D-2211-458E-A6C4-674FFC46620E}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GNRvinsuk</RootNamespace>
+    <AssemblyName>GNRvinsuk</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="%24tf\localversion.tf1" />
+    <Content Include="%24tf\localversion.tfb" />
+    <Content Include="%24tf\pendingchanges.tf1" />
+    <Content Include="%24tf\pendingchanges.tfb" />
+    <Content Include="%24tf\properties.tf1" />
+    <Content Include="bin\GNRvinsuk.dll.config" />
+    <Content Include="bootstrap\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="bootstrap\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="bootstrap\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="bootstrap\fonts\glyphicons-halflings-regulard41d.eot" />
+    <Content Include="font-awesome\fonts\fontawesome-webfont3295.eot" />
+    <Content Include="font-awesome\fonts\fontawesome-webfont3295.ttf" />
+    <Content Include="font-awesome\fonts\fontawesome-webfont3295.woff" />
+    <Content Include="font-awesome\fonts\fontawesome-webfontd41d.eot" />
+    <Content Include="GNRvinsuk.v12.suo" />
+    <Content Include="img\images\.DS_Store" />
+    <Content Include="img\images\Thumbs.db" />
+    <Content Include="img\medical\Brochure.pdf" />
+    <Content Include="img\medical\Diaper.pdf" />
+    <Content Include="img\medical\Hospital.pdf" />
+    <Content Include="img\medical\Ortho.pdf" />
+    <Content Include="MasterPage.master" />
+    <Content Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <Content Include="obj\Debug\GNRvinsuk.csprojResolveAssemblyReference.cache" />
+    <Content Include="pe-icons\fonts\Pe-icon-7-strokebb1d.eot" />
+    <Content Include="pe-icons\fonts\Pe-icon-7-strokebb1d.ttf" />
+    <Content Include="pe-icons\fonts\Pe-icon-7-strokebb1d.woff" />
+    <Content Include="pe-icons\fonts\Pe-icon-7-stroked41d.eot" />
+    <Content Include="rs-plugin\font\revicons90c6.eot" />
+    <Content Include="rs-plugin\font\revicons90c6.ttf" />
+    <Content Include="rs-plugin\font\revicons90c6.woff" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <Content Include="website.publishproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="about.aspx" />
+    <Content Include="API.aspx" />
+    <Content Include="bin\GNRvinsuk.dll" />
+    <Content Include="bin\GNRvinsuk.pdb" />
+    <Content Include="bootstrap\css\bootstrap.min.css" />
+    <Content Include="bootstrap\fonts\glyphicons-halflings-regular.html" />
+    <Content Include="bootstrap\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="bootstrap\js\bootstrap.min.js" />
+    <Content Include="careers.aspx" />
+    <Content Include="certificates.aspx" />
+    <Content Include="contact.aspx" />
+    <Content Include="css\AjaxLoader.html" />
+    <Content Include="css\animate.css" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\flexslider.css" />
+    <Content Include="css\grabbing.html" />
+    <Content Include="css\magnific-popup.css" />
+    <Content Include="css\medical.css" />
+    <Content Include="css\owl.carousel.css" />
+    <Content Include="css\owl.theme.css" />
+    <Content Include="css\rev-style.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="Defaultold.aspx" />
+    <Content Include="diapers.aspx" />
+    <Content Include="font-awesome\css\font-awesome.min.css" />
+    <Content Include="font-awesome\fonts\fontawesome-webfont3295.html" />
+    <Content Include="font-awesome\fonts\fontawesome-webfont3295.svg" />
+    <Content Include="fonts\flexslider-icon-2.html" />
+    <Content Include="fonts\flexslider-icon-3.html" />
+    <Content Include="fonts\flexslider-icon-4.html" />
+    <Content Include="fonts\flexslider-icon.html" />
+    <Content Include="fonts\flexslider-icond41d.html" />
+    <Content Include="formulations.aspx" />
+    <Content Include="GNRvinsuk.sln" />
+    <Content Include="img\images\404_background.jpg" />
+    <Content Include="img\images\icon_clock.png" />
+    <Content Include="img\images\icon_star.png" />
+    <Content Include="img\images\large\04-11-2015_23-19-25-873examination table.jpg" />
+    <Content Include="img\images\large\14-08-2015_12-00-52-818download.jpg" />
+    <Content Include="img\images\large\14-08-2015_12-47-03-9662015_audi_tt_clubsport_turbo_concept-1920x1200.jpg" />
+    <Content Include="img\images\large\14-08-2015_12-49-46-8762015_audi_tt_clubsport_turbo_concept-1920x1200.jpg" />
+    <Content Include="img\images\large\14-08-2015_12-51-13-7832015_audi_tt_clubsport_turbo_concept-1920x1200.jpg" />
+    <Content Include="img\images\large\21-08-2015_05-10-24-521China_Sterile_latex_surgical_gloves20085311330451.JPG" />
+    <Content Include="img\images\large\21-08-2015_05-14-14-307gloves.jpg" />
+    <Content Include="img\images\large\21-08-2015_05-17-13-905I-V-CANNULA.jpg" />
+    <Content Include="img\images\large\21-08-2015_05-21-45-802I.V.Sets.jpg" />
+    <Content Include="img\images\large\21-08-2015_05-25-27-494scalp_vein_set.JPG" />
+    <Content Include="img\images\large\21-08-2015_05-32-14-112Urinary_catheters_03.JPG" />
+    <Content Include="img\images\large\21-08-2015_05-37-46-620Disposable-Urine-Bags.jpg" />
+    <Content Include="img\images\large\21-08-2015_05-42-36-533Ryle-Tube-401.jpg" />
+    <Content Include="img\images\large\21-08-2015_05-47-59-415face-mask.jpg" />
+    <Content Include="img\images\large\21-08-2015_05-55-03-392needles-syringes.jpg" />
+    <Content Include="img\images\large\21-08-2015_06-01-09-331surgical-sutures-250x250 %281%29.jpg" />
+    <Content Include="img\images\large\21-08-2015_06-03-10-988Scalpels.jpg" />
+    <Content Include="img\images\large\21-08-2015_06-07-07-866spinal needle 1.jpg" />
+    <Content Include="img\images\large\21-08-2015_06-10-32-88epidural set.jpg" />
+    <Content Include="img\images\large\21-08-2015_06-13-43-983stimulator pencil Point.jpg" />
+    <Content Include="img\images\large\21-08-2015_06-15-51-391umbilical-cord-clamp-.jpg" />
+    <Content Include="img\images\large\21-08-2015_06-18-03-206Thoracic Catheter.jpg" />
+    <Content Include="img\images\large\22-08-2015_04-41-05-975major instruments.jpg" />
+    <Content Include="img\images\large\22-08-2015_04-47-32-203Pregancy Strip Test Kit.jpg" />
+    <Content Include="img\images\large\22-08-2015_05-07-07-338diabetic-kit.jpg" />
+    <Content Include="img\images\large\22-08-2015_05-11-04-62first-aid-kit.jpg" />
+    <Content Include="img\images\large\22-08-2015_05-13-51-550Delivery-Kit.jpg" />
+    <Content Include="img\images\large\22-08-2015_05-43-51-50icu-bed-electric-with-abs-panel-and-abs-safety-rails.jpg" />
+    <Content Include="img\images\large\22-08-2015_05-44-36-66icu-bed-electric-with-abs-panel-and-abs-safety-rails.jpg" />
+    <Content Include="img\images\large\24-08-2015_12-16-13-119cool-castle-instagram-photos-wallpaper-1255125649.jpg" />
+    <Content Include="img\images\large\24-08-2015_12-29-09-682cool-castle-instagram-photos-wallpaper-1255125649.jpg" />
+    <Content Include="img\images\large\25-08-2015_05-12-51-59icu-bed-electric-with-abs-panel-and-abs-safety-rails.jpg" />
+    <Content Include="img\images\large\25-08-2015_05-16-59-613fowler-bed-mechanical-with-abs-panel-and-abs-safety-rails.jpg" />
+    <Content Include="img\images\large\25-08-2015_05-18-15-662fowler-bed-with-abs-panel.jpg" />
+    <Content Include="img\images\large\25-08-2015_05-19-56-931hospital-plain-bed.jpg" />
+    <Content Include="img\images\large\25-08-2015_05-21-13-136Pediatric-Bed.jpg" />
+    <Content Include="img\images\large\25-08-2015_05-22-53-123Folding_Wheelchair1.jpg" />
+    <Content Include="img\images\large\25-08-2015_05-23-44-655Wheel Chair Non-Folding.jpg" />
+    <Content Include="img\images\large\25-08-2015_05-25-37-783height-adjustable-examination-table-electrical-mobile-2-section.jpg" />
+    <Content Include="img\images\large\25-08-2015_05-26-37-82examination-couch-with-cabinet-drawers.jpg" />
+    <Content Include="img\images\large\25-08-2015_05-28-16-7562-section-examination-table.jpg" />
+    <Content Include="img\images\large\25-08-2015_05-29-20-1333 Section Hospital Examination Couch.jpg" />
+    <Content Include="img\images\large\25-08-2015_06-02-42-721patient Stretcher Trolley.jpg" />
+    <Content Include="img\images\large\25-08-2015_06-02-58-205patient Stretcher Trolley.jpg" />
+    <Content Include="img\images\large\25-08-2015_06-04-36-502stretcher trolley.jpg" />
+    <Content Include="img\images\large\25-08-2015_06-08-50-845stretcher trolley.jpg" />
+    <Content Include="img\images\large\25-08-2015_06-09-54-627Vaccine Carrier Box.JPG" />
+    <Content Include="img\images\large\25-08-2015_06-11-30-206Saline-Stand-SS-.jpg" />
+    <Content Include="img\images\large\25-08-2015_06-12-05-144Saline-Stand-SS-.jpg" />
+    <Content Include="img\images\large\25-08-2015_06-15-38-321Bedside-Locker.jpg" />
+    <Content Include="img\images\large\25-08-2015_06-19-57-920Bed Side cabinet .jpg" />
+    <Content Include="img\images\large\25-08-2015_06-29-18-278Over-Bed-Table.jpg" />
+    <Content Include="img\images\large\25-08-2015_06-35-30-176Screen-Bed-Side-Screen-3-panels.jpg" />
+    <Content Include="img\images\large\25-08-2015_06-36-50-725Bedside Screen 4 panels.jpg" />
+    <Content Include="img\images\large\25-08-2015_06-39-56-274foot-step-double-single-250x250.jpg" />
+    <Content Include="img\images\large\25-08-2015_06-41-53-42Hand-wash-basin-stand.jpg" />
+    <Content Include="img\images\large\25-08-2015_06-45-22-249Patient Revolving stool.jpg" />
+    <Content Include="img\images\large\25-08-2015_07-19-31-890Stethscope Cardiology.jpg" />
+    <Content Include="img\images\large\25-08-2015_07-20-09-610stethoscopes.jpg" />
+    <Content Include="img\images\large\25-08-2015_07-25-17-261Sphygmomanometer Mercurial.jpg" />
+    <Content Include="img\images\large\25-08-2015_07-40-14-822Digital BP. Monitor.jpg" />
+    <Content Include="img\images\large\25-08-2015_07-43-21-839Blood Pressure Monitor, Mercury %28Stand Model%29.png" />
+    <Content Include="img\images\large\25-08-2015_09-50-53-451Laryngoscope with Macintosh Blades.jpg" />
+    <Content Include="img\images\large\25-08-2015_09-57-38-962Laryngoscope Set, Miller Type.jpg" />
+    <Content Include="img\images\large\25-08-2015_10-00-22-795Ultrasonic Nebulizer - Portable.jpg" />
+    <Content Include="img\images\large\25-08-2015_10-07-06-130Nebulizer - Piston Compressor Type.jpg" />
+    <Content Include="img\images\large\25-08-2015_10-11-28-793digital_thermometer .jpg" />
+    <Content Include="img\images\large\25-08-2015_10-16-00-735infrared-thermometer-touch-free.jpg" />
+    <Content Include="img\images\large\25-08-2015_10-18-11-893thermometer-clinical-prismatic-dual-scale.jpg" />
+    <Content Include="img\images\large\25-08-2015_10-21-17-566OmronBloodGlucose .jpg" />
+    <Content Include="img\images\large\25-08-2015_10-22-49-803Glucometer Accu-chek active.jpg" />
+    <Content Include="img\images\large\25-08-2015_10-25-06-476Neurological Hammers .jpg" />
+    <Content Include="img\images\large\25-08-2015_10-26-12-476taylor reflex hammer.jpg" />
+    <Content Include="img\images\large\25-08-2015_10-27-20-711Tendon Hammer.jpg" />
+    <Content Include="img\images\large\25-08-2015_10-30-00-89tonguedepressor Wooden.jpg" />
+    <Content Include="img\images\large\25-08-2015_10-31-59-714Tongue_Depressor SS.jpg" />
+    <Content Include="img\images\large\25-08-2015_10-42-01-425Stereo  Zoom Binocular Microscope.jpg" />
+    <Content Include="img\images\large\25-08-2015_10-46-16-680stereo-microscope.jpg" />
+    <Content Include="img\images\large\25-08-2015_10-49-00-404Senior-Dissecting-Microscope.jpg" />
+    <Content Include="img\images\large\25-08-2015_10-50-15-752Monocular.jpg" />
+    <Content Include="img\images\large\25-08-2015_10-59-25-713Centrifuge Auto Stop.jpg" />
+    <Content Include="img\images\large\25-08-2015_11-02-06-747hematrotic_centrifuge_large.jpg" />
+    <Content Include="img\images\large\25-08-2015_11-07-15-834Serological Water Bath Thermostatic Controlled %28without rack and thermometer%29.jpg" />
+    <Content Include="img\images\large\25-08-2015_11-12-27-529High-Precision-Water-Bath.jpg" />
+    <Content Include="img\images\large\25-08-2015_11-16-46-675Laboratory Rectangular Heating Plate with Cast Iron Top.jpg" />
+    <Content Include="img\images\large\25-08-2015_11-18-22-99Laboratory Round Heating Plate.jpg" />
+    <Content Include="img\images\large\25-08-2015_11-21-46-212Hot Air Sterilizer, Triple Wall with Air Circulating System upto 250ºC.jpg" />
+    <Content Include="img\images\large\25-08-2015_11-24-20-121Laboratory Incubator Universal Type.jpg" />
+    <Content Include="img\images\large\25-08-2015_11-32-26-613kidney-trays.jpg" />
+    <Content Include="img\images\large\25-08-2015_11-33-45-755Instrument Tray.jpg" />
+    <Content Include="img\images\large\25-08-2015_11-36-05-147Bed Pan with Lid - Stainless Steel.jpg" />
+    <Content Include="img\images\large\25-08-2015_11-38-15-508Bed Pan with Lid - Stainless Steel.jpg" />
+    <Content Include="img\images\large\25-08-2015_11-38-54-680Urinal - Stainless Steel.jpg" />
+    <Content Include="img\images\large\25-08-2015_11-40-46-697Urinal Male &amp; Female.jpg" />
+    <Content Include="img\images\large\25-08-2015_11-45-29-749Basins.jpg" />
+    <Content Include="img\images\large\25-08-2015_11-47-42-454Lotion Bowls.jpg" />
+    <Content Include="img\images\large\25-08-2015_11-49-49-144douche-cans-with-douche-tube-douche-fitting-set.jpg" />
+    <Content Include="img\images\large\25-08-2015_11-50-05-191douche-cans-with-douche-tube-douche-fitting-set.jpg" />
+    <Content Include="img\images\large\25-08-2015_11-50-37-348Bed Pan with Lid - Stainless Steel.jpg" />
+    <Content Include="img\images\large\25-08-2015_11-51-01-770kidney-trays.jpg" />
+    <Content Include="img\images\large\25-08-2015_11-54-08-507Thermometer Jar.jpg" />
+    <Content Include="img\images\large\25-08-2015_11-55-46-480Forceps Jar.jpg" />
+    <Content Include="img\images\large\25-08-2015_11-56-00-715Forceps Jar.jpg" />
+    <Content Include="img\images\large\25-08-2015_11-57-58-80feeding-cup.jpg" />
+    <Content Include="img\images\large\25-08-2015_11-59-35-381Sputum Mug with Cover.jpg" />
+    <Content Include="img\images\large\25-08-2015_12-01-56-450Gallipots Cup Shaped.jpg" />
+    <Content Include="img\images\large\25-08-2015_12-02-05-529Gallipots Cup Shaped.jpg" />
+    <Content Include="img\images\large\25-08-2015_12-04-06-691Dressing Jar.jpg" />
+    <Content Include="img\images\large\25-08-2015_12-05-48-351Waste Bin Foot Operated.jpg" />
+    <Content Include="img\images\large\25-08-2015_12-05-56-414Waste Bin Foot Operated.jpg" />
+    <Content Include="img\images\large\25-08-2015_12-07-17-838Dressing Drums - Stainless Steel.jpg" />
+    <Content Include="img\images\large\25-08-2015_12-07-24-400Dressing Drums - Stainless Steel.jpg" />
+    <Content Include="img\images\large\25-08-2015_12-10-34-125led ot light.jpg" />
+    <Content Include="img\images\large\25-08-2015_12-12-19-614electric ot table.jpg" />
+    <Content Include="img\images\large\25-08-2015_12-15-02-885Surgeon Gown, Non Woven.jpg" />
+    <Content Include="img\images\large\25-08-2015_12-16-35-841Disposable Scrub Suit, Non Woven.jpg" />
+    <Content Include="img\images\large\25-08-2015_12-16-45-607Disposable Scrub Suit, Non Woven.jpg" />
+    <Content Include="img\images\large\25-08-2015_12-18-15-937Face Mask, Non Woven.jpg" />
+    <Content Include="img\images\large\25-08-2015_12-19-44-377Disposable Surgeon &amp; Nurse Cap, Non – Woven.jpg" />
+    <Content Include="img\images\large\25-08-2015_12-19-53-580Disposable Scrub Suit, Non Woven.jpg" />
+    <Content Include="img\images\large\25-08-2015_12-21-03-519China_Sterile_latex_surgical_gloves20085311330451.JPG" />
+    <Content Include="img\images\large\25-08-2015_12-21-21-410China_Sterile_latex_surgical_gloves20085311330451.JPG" />
+    <Content Include="img\images\large\25-08-2015_12-23-32-787Boot cover, Non Woven.jpg" />
+    <Content Include="img\images\large\25-08-2015_12-24-52-195Disposable Shoe cover.jpg" />
+    <Content Include="img\images\large\25-08-2015_12-24-59-101Disposable Shoe cover.jpg" />
+    <Content Include="img\images\large\25-08-2015_12-26-25-431apron.jpg" />
+    <Content Include="img\images\large\25-08-2015_12-27-41-197Apron PE.jpg" />
+    <Content Include="img\images\large\25-08-2015_12-27-56-790Apron PE.jpg" />
+    <Content Include="img\images\large\25-08-2015_12-31-13-294Cotton Drape Sheet.jpg" />
+    <Content Include="img\images\large\25-08-2015_12-31-31-200Cotton Drape Sheet.jpg" />
+    <Content Include="img\images\large\25-08-2015_12-32-54-779hospital_sheets.jpg" />
+    <Content Include="img\images\large\25-08-2015_12-33-06-29hospital_sheets.jpg" />
+    <Content Include="img\images\large\25-08-2015_12-35-02-344hospital-pillow-cover-.jpg" />
+    <Content Include="img\images\large\25-08-2015_12-35-12-594hospital-pillow-cover-.jpg" />
+    <Content Include="img\images\large\25-08-2015_12-36-37-205ot-towel.jpg" />
+    <Content Include="img\images\large\25-08-2015_12-36-50-924ot-towel.jpg" />
+    <Content Include="img\images\large\25-08-2015_12-38-17-82Patient Identification Band.jpg" />
+    <Content Include="img\images\large\25-08-2015_12-38-28-910Patient Identification Band.jpg" />
+    <Content Include="img\images\large\25-08-2015_12-40-58-553Small Vaccine Carrier Short Range.jpg" />
+    <Content Include="img\images\large\25-08-2015_12-45-37-26Large Vaccine Carrier Long Range,.jpg" />
+    <Content Include="img\images\large\25-08-2015_12-45-45-839Small Vaccine Carrier Short Range.jpg" />
+    <Content Include="img\images\large\25-08-2015_12-47-59-496Large Cold Box Long Range.jpg" />
+    <Content Include="img\images\large\25-08-2015_12-49-34-638Small Cold Box Long Range.jpg" />
+    <Content Include="img\images\large\25-08-2015_12-49-45-454Small Cold Box Long Range.jpg" />
+    <Content Include="img\images\large\25-08-2015_12-51-35-93Ice Packs.jpg" />
+    <Content Include="img\images\large\25-08-2015_12-51-49-921Ice Packs.jpg" />
+    <Content Include="img\images\large\25-08-2015_12-54-41-252ICU Bed.jpg" />
+    <Content Include="img\images\large\25-08-2015_12-55-36-112Wheel Chair .jpg" />
+    <Content Include="img\images\large\25-08-2015_12-56-17-144Section Hospital Examination Couch.jpg" />
+    <Content Include="img\images\large\25-08-2015_12-57-09-301stretcher trolley.jpg" />
+    <Content Include="img\images\large\25-08-2015_12-58-05-832Bed Side cabinet .jpg" />
+    <Content Include="img\images\large\25-08-2015_12-58-42-895Stethscope Cardiology.jpg" />
+    <Content Include="img\images\large\25-08-2015_12-58-58-458Sphygmomanometer Mercurial.jpg" />
+    <Content Include="img\images\large\25-08-2015_12-59-13-521Laryngoscope Set, Miller Type.jpg" />
+    <Content Include="img\images\large\25-08-2015_12-59-27-271Nebulizer - Piston Compressor Type.jpg" />
+    <Content Include="img\images\large\25-08-2015_12-59-59-553thermometer-clinical-prismatic-dual-scale.jpg" />
+    <Content Include="img\images\large\25-08-2015_13-00-15-37Glucometer Accu-chek active.jpg" />
+    <Content Include="img\images\large\25-08-2015_13-01-32-538Neurological Hammers .jpg" />
+    <Content Include="img\images\large\25-08-2015_13-01-48-633Tongue_Depressor SS.jpg" />
+    <Content Include="img\images\large\25-08-2015_13-02-15-915Monocular.jpg" />
+    <Content Include="img\images\large\25-08-2015_13-02-31-666Centrifuge Auto Stop.jpg" />
+    <Content Include="img\images\large\25-08-2015_13-03-24-276High-Precision-Water-Bath.jpg" />
+    <Content Include="img\images\large\25-08-2015_13-03-49-152Laboratory Rectangular Heating Plate with Cast Iron Top.jpg" />
+    <Content Include="img\images\large\25-08-2015_13-04-06-981Hot Air Sterilizer, Triple Wall with Air Circulating System upto 250ºC.jpg" />
+    <Content Include="img\images\large\25-08-2015_13-04-27-435Laboratory Incubator Universal Type.jpg" />
+    <Content Include="img\images\temp\21-08-2015_05-11-25-835surgical-gloves-250x250.gif" />
+    <Content Include="img\images\temp\25-08-2015_05-35-00-515Stretcher_on_Trolley.jpg" />
+    <Content Include="img\images\temp\25-08-2015_05-47-19-799Stretcher_on_Trolley.jpg" />
+    <Content Include="img\images\temp\25-08-2015_05-48-39-316Stretcher_on_Trolley.jpg" />
+    <Content Include="img\images\temp\25-08-2015_05-52-41-852Stretcher_on_Trolley.jpg" />
+    <Content Include="img\images\temp\25-08-2015_10-04-31-704Nebulizer - Piston Compressor Type.jpeg" />
+    <Content Include="img\images\temp\25-08-2015_11-43-38-622wash-basin-ss.jpg" />
+    <Content Include="img\images\temp\25-08-2015_11-44-01-748wash-basin-ss.jpg" />
+    <Content Include="img\images\temp\25-08-2015_11-44-43-858wash-basin-ss.jpg" />
+    <Content Include="img\images\thumbs\04-11-2015_23-19-25-873examination table.jpg" />
+    <Content Include="img\images\thumbs\14-08-2015_12-00-52-818download.jpg" />
+    <Content Include="img\images\thumbs\14-08-2015_12-47-03-9662015_audi_tt_clubsport_turbo_concept-1920x1200.jpg" />
+    <Content Include="img\images\thumbs\14-08-2015_12-49-46-8762015_audi_tt_clubsport_turbo_concept-1920x1200.jpg" />
+    <Content Include="img\images\thumbs\14-08-2015_12-51-13-7832015_audi_tt_clubsport_turbo_concept-1920x1200.jpg" />
+    <Content Include="img\images\thumbs\21-08-2015_05-10-24-521China_Sterile_latex_surgical_gloves20085311330451.JPG" />
+    <Content Include="img\images\thumbs\21-08-2015_05-14-14-307gloves.jpg" />
+    <Content Include="img\images\thumbs\21-08-2015_05-17-13-905I-V-CANNULA.jpg" />
+    <Content Include="img\images\thumbs\21-08-2015_05-21-45-802I.V.Sets.jpg" />
+    <Content Include="img\images\thumbs\21-08-2015_05-25-27-494scalp_vein_set.JPG" />
+    <Content Include="img\images\thumbs\21-08-2015_05-32-14-112Urinary_catheters_03.JPG" />
+    <Content Include="img\images\thumbs\21-08-2015_05-37-46-620Disposable-Urine-Bags.jpg" />
+    <Content Include="img\images\thumbs\21-08-2015_05-42-36-533Ryle-Tube-401.jpg" />
+    <Content Include="img\images\thumbs\21-08-2015_05-47-59-415face-mask.jpg" />
+    <Content Include="img\images\thumbs\21-08-2015_05-55-03-392needles-syringes.jpg" />
+    <Content Include="img\images\thumbs\21-08-2015_06-01-09-331surgical-sutures-250x250 %281%29.jpg" />
+    <Content Include="img\images\thumbs\21-08-2015_06-03-10-988Scalpels.jpg" />
+    <Content Include="img\images\thumbs\21-08-2015_06-07-07-866spinal needle 1.jpg" />
+    <Content Include="img\images\thumbs\21-08-2015_06-10-32-88epidural set.jpg" />
+    <Content Include="img\images\thumbs\21-08-2015_06-13-43-983stimulator pencil Point.jpg" />
+    <Content Include="img\images\thumbs\21-08-2015_06-15-51-391umbilical-cord-clamp-.jpg" />
+    <Content Include="img\images\thumbs\21-08-2015_06-18-03-206Thoracic Catheter.jpg" />
+    <Content Include="img\images\thumbs\22-08-2015_04-41-05-975major instruments.jpg" />
+    <Content Include="img\images\thumbs\22-08-2015_04-47-32-203Pregancy Strip Test Kit.jpg" />
+    <Content Include="img\images\thumbs\22-08-2015_05-07-07-338diabetic-kit.jpg" />
+    <Content Include="img\images\thumbs\22-08-2015_05-11-04-62first-aid-kit.jpg" />
+    <Content Include="img\images\thumbs\22-08-2015_05-13-51-550Delivery-Kit.jpg" />
+    <Content Include="img\images\thumbs\22-08-2015_05-43-51-50icu-bed-electric-with-abs-panel-and-abs-safety-rails.jpg" />
+    <Content Include="img\images\thumbs\22-08-2015_05-44-36-66icu-bed-electric-with-abs-panel-and-abs-safety-rails.jpg" />
+    <Content Include="img\images\thumbs\24-08-2015_12-16-13-119cool-castle-instagram-photos-wallpaper-1255125649.jpg" />
+    <Content Include="img\images\thumbs\24-08-2015_12-29-09-682cool-castle-instagram-photos-wallpaper-1255125649.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_05-12-51-59icu-bed-electric-with-abs-panel-and-abs-safety-rails.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_05-16-59-613fowler-bed-mechanical-with-abs-panel-and-abs-safety-rails.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_05-18-15-662fowler-bed-with-abs-panel.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_05-19-56-931hospital-plain-bed.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_05-21-13-136Pediatric-Bed.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_05-22-53-123Folding_Wheelchair1.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_05-23-44-655Wheel Chair Non-Folding.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_05-25-37-783height-adjustable-examination-table-electrical-mobile-2-section.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_05-26-37-82examination-couch-with-cabinet-drawers.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_05-28-16-7562-section-examination-table.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_05-29-20-1333 Section Hospital Examination Couch.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_06-02-42-721patient Stretcher Trolley.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_06-02-58-205patient Stretcher Trolley.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_06-04-36-502stretcher trolley.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_06-08-50-845stretcher trolley.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_06-09-54-627Vaccine Carrier Box.JPG" />
+    <Content Include="img\images\thumbs\25-08-2015_06-11-30-206Saline-Stand-SS-.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_06-12-05-144Saline-Stand-SS-.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_06-15-38-321Bedside-Locker.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_06-19-57-920Bed Side cabinet .jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_06-29-18-278Over-Bed-Table.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_06-35-30-176Screen-Bed-Side-Screen-3-panels.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_06-36-50-725Bedside Screen 4 panels.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_06-39-56-274foot-step-double-single-250x250.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_06-41-53-42Hand-wash-basin-stand.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_06-45-22-249Patient Revolving stool.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_07-19-31-890Stethscope Cardiology.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_07-20-09-610stethoscopes.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_07-25-17-261Sphygmomanometer Mercurial.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_07-40-14-822Digital BP. Monitor.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_07-43-21-839Blood Pressure Monitor, Mercury %28Stand Model%29.png" />
+    <Content Include="img\images\thumbs\25-08-2015_09-50-53-451Laryngoscope with Macintosh Blades.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_09-57-38-962Laryngoscope Set, Miller Type.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_10-00-22-795Ultrasonic Nebulizer - Portable.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_10-07-06-130Nebulizer - Piston Compressor Type.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_10-11-28-793digital_thermometer .jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_10-16-00-735infrared-thermometer-touch-free.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_10-18-11-893thermometer-clinical-prismatic-dual-scale.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_10-21-17-566OmronBloodGlucose .jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_10-22-49-803Glucometer Accu-chek active.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_10-25-06-476Neurological Hammers .jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_10-26-12-476taylor reflex hammer.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_10-27-20-711Tendon Hammer.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_10-30-00-89tonguedepressor Wooden.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_10-31-59-714Tongue_Depressor SS.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_10-42-01-425Stereo  Zoom Binocular Microscope.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_10-46-16-680stereo-microscope.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_10-49-00-404Senior-Dissecting-Microscope.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_10-50-15-752Monocular.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_10-59-25-713Centrifuge Auto Stop.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_11-02-06-747hematrotic_centrifuge_large.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_11-07-15-834Serological Water Bath Thermostatic Controlled %28without rack and thermometer%29.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_11-12-27-529High-Precision-Water-Bath.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_11-16-46-675Laboratory Rectangular Heating Plate with Cast Iron Top.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_11-18-22-99Laboratory Round Heating Plate.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_11-21-46-212Hot Air Sterilizer, Triple Wall with Air Circulating System upto 250ºC.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_11-24-20-121Laboratory Incubator Universal Type.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_11-32-26-613kidney-trays.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_11-33-45-755Instrument Tray.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_11-36-05-147Bed Pan with Lid - Stainless Steel.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_11-38-15-508Bed Pan with Lid - Stainless Steel.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_11-38-54-680Urinal - Stainless Steel.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_11-40-46-697Urinal Male &amp; Female.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_11-45-29-749Basins.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_11-47-42-454Lotion Bowls.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_11-49-49-144douche-cans-with-douche-tube-douche-fitting-set.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_11-50-05-191douche-cans-with-douche-tube-douche-fitting-set.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_11-50-37-348Bed Pan with Lid - Stainless Steel.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_11-51-01-770kidney-trays.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_11-54-08-507Thermometer Jar.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_11-55-46-480Forceps Jar.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_11-56-00-715Forceps Jar.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_11-57-58-80feeding-cup.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_11-59-35-381Sputum Mug with Cover.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_12-01-56-450Gallipots Cup Shaped.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_12-02-05-529Gallipots Cup Shaped.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_12-04-06-691Dressing Jar.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_12-05-48-351Waste Bin Foot Operated.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_12-05-56-414Waste Bin Foot Operated.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_12-07-17-838Dressing Drums - Stainless Steel.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_12-07-24-400Dressing Drums - Stainless Steel.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_12-10-34-125led ot light.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_12-12-19-614electric ot table.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_12-15-02-885Surgeon Gown, Non Woven.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_12-16-35-841Disposable Scrub Suit, Non Woven.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_12-16-45-607Disposable Scrub Suit, Non Woven.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_12-18-15-937Face Mask, Non Woven.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_12-19-44-377Disposable Surgeon &amp; Nurse Cap, Non – Woven.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_12-19-53-580Disposable Scrub Suit, Non Woven.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_12-21-03-519China_Sterile_latex_surgical_gloves20085311330451.JPG" />
+    <Content Include="img\images\thumbs\25-08-2015_12-21-21-410China_Sterile_latex_surgical_gloves20085311330451.JPG" />
+    <Content Include="img\images\thumbs\25-08-2015_12-23-32-787Boot cover, Non Woven.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_12-24-52-195Disposable Shoe cover.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_12-24-59-101Disposable Shoe cover.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_12-26-25-431apron.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_12-27-41-197Apron PE.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_12-27-56-790Apron PE.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_12-31-13-294Cotton Drape Sheet.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_12-31-31-200Cotton Drape Sheet.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_12-32-54-779hospital_sheets.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_12-33-06-29hospital_sheets.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_12-35-02-344hospital-pillow-cover-.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_12-35-12-594hospital-pillow-cover-.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_12-36-37-205ot-towel.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_12-36-50-924ot-towel.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_12-38-17-82Patient Identification Band.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_12-38-28-910Patient Identification Band.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_12-40-58-553Small Vaccine Carrier Short Range.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_12-45-37-26Large Vaccine Carrier Long Range,.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_12-45-45-839Small Vaccine Carrier Short Range.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_12-47-59-496Large Cold Box Long Range.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_12-49-34-638Small Cold Box Long Range.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_12-49-45-454Small Cold Box Long Range.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_12-51-35-93Ice Packs.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_12-51-49-921Ice Packs.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_12-54-41-252ICU Bed.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_12-55-36-112Wheel Chair .jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_12-56-17-144Section Hospital Examination Couch.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_12-57-09-301stretcher trolley.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_12-58-05-832Bed Side cabinet .jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_12-58-42-895Stethscope Cardiology.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_12-58-58-458Sphygmomanometer Mercurial.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_12-59-13-521Laryngoscope Set, Miller Type.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_12-59-27-271Nebulizer - Piston Compressor Type.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_12-59-59-553thermometer-clinical-prismatic-dual-scale.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_13-00-15-37Glucometer Accu-chek active.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_13-01-32-538Neurological Hammers .jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_13-01-48-633Tongue_Depressor SS.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_13-02-15-915Monocular.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_13-02-31-666Centrifuge Auto Stop.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_13-03-24-276High-Precision-Water-Bath.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_13-03-49-152Laboratory Rectangular Heating Plate with Cast Iron Top.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_13-04-06-981Hot Air Sterilizer, Triple Wall with Air Circulating System upto 250ºC.jpg" />
+    <Content Include="img\images\thumbs\25-08-2015_13-04-27-435Laboratory Incubator Universal Type.jpg" />
+    <Content Include="img\images\thumbs\no-image.png" />
+    <Content Include="img\logo.gif" />
+    <Content Include="img\logo.png" />
+    <Content Include="img\logo1.png" />
+    <Content Include="img\logo2.png" />
+    <Content Include="img\logo3.jpg" />
+    <Content Include="img\medical\about.jpg" />
+    <Content Include="img\medical\amazon.png" />
+    <Content Include="img\medical\aramex.png" />
+    <Content Include="img\medical\BabyDiaper1.jpg" />
+    <Content Include="img\medical\BabyDiaper2.jpg" />
+    <Content Include="img\medical\bg-1.jpg" />
+    <Content Include="img\medical\bg-11.jpg" />
+    <Content Include="img\medical\bg-2.jpg" />
+    <Content Include="img\medical\bg-3.jpg" />
+    <Content Include="img\medical\bg-4.jpg" />
+    <Content Include="img\medical\bg-44.jpg" />
+    <Content Include="img\medical\bg-5.jpg" />
+    <Content Include="img\medical\bg-55.jpg" />
+    <Content Include="img\medical\bg-6.jpg" />
+    <Content Include="img\medical\careers.jpg" />
+    <Content Include="img\medical\certificates.jpg" />
+    <Content Include="img\medical\DiaperBack.jpg" />
+    <Content Include="img\medical\DiaperFront.jpg" />
+    <Content Include="img\medical\dtdc.png" />
+    <Content Include="img\medical\expressred.png" />
+    <Content Include="img\medical\flipkart.png" />
+    <Content Include="img\medical\indoafrica.png" />
+    <Content Include="img\medical\indoafricachamber.png" />
+    <Content Include="img\medical\p-1.jpg" />
+    <Content Include="img\medical\p-11.jpg" />
+    <Content Include="img\medical\p-111.jpg" />
+    <Content Include="img\medical\p-2.jpg" />
+    <Content Include="img\medical\p-3.jpg" />
+    <Content Include="img\medical\p-4.jpg" />
+    <Content Include="img\medical\p-5.jpg" />
+    <Content Include="img\medical\p-6.jpg" />
+    <Content Include="img\medical\p-66 %282%29.JPG" />
+    <Content Include="img\medical\p-66.jpg" />
+    <Content Include="img\medical\p-666.jpg" />
+    <Content Include="img\medical\p-7.jpg" />
+    <Content Include="img\medical\p-77 %282%29.JPG" />
+    <Content Include="img\medical\p-77.jpg" />
+    <Content Include="img\medical\p-8.jpg" />
+    <Content Include="img\medical\paytm.png" />
+    <Content Include="img\medical\paytm11.jpg" />
+    <Content Include="img\medical\pharmexcil.jpg" />
+    <Content Include="img\medical\redexpress.png" />
+    <Content Include="img\medical\sm-1.jpg" />
+    <Content Include="img\medical\sm-11.jpg" />
+    <Content Include="img\medical\sm-2.jpg" />
+    <Content Include="img\medical\sm-22.jpg" />
+    <Content Include="img\medical\sm-3.jpg" />
+    <Content Include="img\medical\sm-33.jpg" />
+    <Content Include="img\medical\sm-4.jpg" />
+    <Content Include="img\medical\sm-44.jpg" />
+    <Content Include="img\medical\sm-5.jpg" />
+    <Content Include="img\medical\snapdeal.png" />
+    <Content Include="img\medical\team-1.png" />
+    <Content Include="img\medical\team-2.png" />
+    <Content Include="img\medical\team-22.png" />
+    <Content Include="img\medical\team-3.png" />
+    <Content Include="img\medical\team-4.png" />
+    <Content Include="img\medical\team-5.png" />
+    <Content Include="img\medical\team-6.png" />
+    <Content Include="img\medical\team-66.png" />
+    <Content Include="img\medical\team-7.png" />
+    <Content Include="img\medical\team-8.png" />
+    <Content Include="img\medical\transparent.gif" />
+    <Content Include="js\contact_me.js" />
+    <Content Include="js\isotope-custom.js" />
+    <Content Include="js\jqBootstrapValidation.js" />
+    <Content Include="js\jquery-migrate.min.js" />
+    <Content Include="js\jquery.flexslider-min.js" />
+    <Content Include="js\jquery.imagesloaded.min.js" />
+    <Content Include="js\jquery.isotope.min.js" />
+    <Content Include="js\jquery.magnific-popup.min.js" />
+    <Content Include="js\jquery.min.js" />
+    <Content Include="js\jquery.stellar.min.js" />
+    <Content Include="js\list.js" />
+    <Content Include="js\medical-custom.js" />
+    <Content Include="js\pace.min.js" />
+    <Content Include="js\revolution-custom.js" />
+    <Content Include="js\waypoints.min.js" />
+    <Content Include="js\wow.min.js" />
+    <Content Include="Medical-Equip-Specifications.aspx" />
+    <Content Include="medical-equipment-cat.aspx" />
+    <Content Include="medical-equipment-subcat.aspx" />
+    <Content Include="medical-equipment.aspx" />
+    <Content Include="medical-kits.aspx" />
+    <Content Include="obj\Debug\GNRvinsuk.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\GNRvinsuk.dll" />
+    <Content Include="obj\Debug\GNRvinsuk.pdb" />
+    <Content Include="Ortho-Rehab-Cat.aspx" />
+    <Content Include="ortho-rehab.aspx" />
+    <Content Include="pe-icons\fonts\Pe-icon-7-strokebb1d.svg" />
+    <Content Include="pe-icons\Pe-icon-7-stroke.css" />
+    <Content Include="pellets.aspx" />
+    <Content Include="process.aspx" />
+    <Content Include="rs-plugin\assets\arrowleft.png" />
+    <Content Include="rs-plugin\assets\arrowright.png" />
+    <Content Include="rs-plugin\assets\arrow_left.png" />
+    <Content Include="rs-plugin\assets\arrow_left2.png" />
+    <Content Include="rs-plugin\assets\arrow_right.png" />
+    <Content Include="rs-plugin\assets\arrow_right2.png" />
+    <Content Include="rs-plugin\assets\boxed_bgtile.png" />
+    <Content Include="rs-plugin\assets\bullet.png" />
+    <Content Include="rs-plugin\assets\bullets.png" />
+    <Content Include="rs-plugin\assets\bullets2.png" />
+    <Content Include="rs-plugin\assets\bullet_boxed.png" />
+    <Content Include="rs-plugin\assets\coloredbg.png" />
+    <Content Include="rs-plugin\assets\gridtile.png" />
+    <Content Include="rs-plugin\assets\gridtile_3x3.png" />
+    <Content Include="rs-plugin\assets\gridtile_3x3_white.png" />
+    <Content Include="rs-plugin\assets\gridtile_white.png" />
+    <Content Include="rs-plugin\assets\large_left.png" />
+    <Content Include="rs-plugin\assets\large_right.png" />
+    <Content Include="rs-plugin\assets\loader.gif" />
+    <Content Include="rs-plugin\assets\navigdots.png" />
+    <Content Include="rs-plugin\assets\navigdots_bgtile.png" />
+    <Content Include="rs-plugin\assets\shadow1.png" />
+    <Content Include="rs-plugin\assets\shadow2.png" />
+    <Content Include="rs-plugin\assets\shadow3.png" />
+    <Content Include="rs-plugin\assets\small_left.png" />
+    <Content Include="rs-plugin\assets\small_left_boxed.png" />
+    <Content Include="rs-plugin\assets\small_right.png" />
+    <Content Include="rs-plugin\assets\small_right_boxed.png" />
+    <Content Include="rs-plugin\assets\timer.png" />
+    <Content Include="rs-plugin\css\settings.css" />
+    <Content Include="rs-plugin\font\revicons90c6.svg" />
+    <Content Include="rs-plugin\images\gradient\g30.png" />
+    <Content Include="rs-plugin\images\gradient\g40.png" />
+    <Content Include="rs-plugin\js\jquery.themepunch.revolution.min.js" />
+    <Content Include="rs-plugin\js\jquery.themepunch.tools.min.js" />
+    <Content Include="surgicals-medical.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="about.aspx.cs">
+      <DependentUpon>about.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="API.aspx.cs">
+      <DependentUpon>API.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="careers.aspx.cs">
+      <DependentUpon>careers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="certificates.aspx.cs">
+      <DependentUpon>certificates.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="contact.aspx.cs">
+      <DependentUpon>contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Defaultold.aspx.cs">
+      <DependentUpon>Defaultold.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="diapers.aspx.cs">
+      <DependentUpon>diapers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="formulations.aspx.cs">
+      <DependentUpon>formulations.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPage.master.cs">
+      <DependentUpon>MasterPage.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Medical-Equip-Specifications.aspx.cs">
+      <DependentUpon>Medical-Equip-Specifications.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="medical-equipment-cat.aspx.cs">
+      <DependentUpon>medical-equipment-cat.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="medical-equipment-subcat.aspx.cs">
+      <DependentUpon>medical-equipment-subcat.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="medical-equipment.aspx.cs">
+      <DependentUpon>medical-equipment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="medical-kits.aspx.cs">
+      <DependentUpon>medical-kits.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="Ortho-Rehab-Cat.aspx.cs">
+      <DependentUpon>Ortho-Rehab-Cat.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ortho-rehab.aspx.cs">
+      <DependentUpon>ortho-rehab.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pellets.aspx.cs">
+      <DependentUpon>pellets.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="process.aspx.cs">
+      <DependentUpon>process.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="surgicals-medical.aspx.cs">
+      <DependentUpon>surgicals-medical.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="%24tf\0\" />
+    <Folder Include="%24tf\10\" />
+    <Folder Include="%24tf\11\" />
+    <Folder Include="%24tf\12\" />
+    <Folder Include="%24tf\13\" />
+    <Folder Include="%24tf\14\" />
+    <Folder Include="%24tf\15\" />
+    <Folder Include="%24tf\1\" />
+    <Folder Include="%24tf\2\" />
+    <Folder Include="%24tf\3\" />
+    <Folder Include="%24tf\4\" />
+    <Folder Include="%24tf\5\" />
+    <Folder Include="%24tf\6\" />
+    <Folder Include="%24tf\7\" />
+    <Folder Include="%24tf\8\" />
+    <Folder Include="%24tf\9\" />
+    <Folder Include="App_Data\" />
+    <Folder Include="obj\Debug\TempPE\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>64202</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:64089/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
